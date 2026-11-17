@@ -14,4 +14,4 @@ A modern, responsive, and interactive digital business card built with React and
 - Vite
 
 ## 🔗 Live Demo
-[Click here to view the live project]
+[Click here to view the live project (https://portfolio-card-ten-zeta.vercel.app)]
