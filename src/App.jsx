@@ -6,7 +6,7 @@ function App() {
   const [showToast, setShowToast] = useState(false);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('your.email@example.com');
+    navigator.clipboard.writeText('marouanewakrim05@gmail.com');
     setShowToast(true);
     setTimeout(() => setShowToast(false), 2000);
   };
@@ -64,16 +64,16 @@ function App() {
             ✉️ Copy Email
           </button>
           
-          <a href="https://wa.me/212600000000" className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md active:scale-95">
+          <a href="https://wa.me/212704699712" className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md active:scale-95">
             📱 WhatsApp
           </a>
         </div>
 
         <div className={`flex justify-center gap-4 pt-4 border-t ${borderFooter}`}>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={`p-3 rounded-full transition-all duration-200 ${btnSocial}`}>
+          <a href="https://www.linkedin.com/in/marouane-wakrim" target="_blank" rel="noopener noreferrer" className={`p-3 rounded-full transition-all duration-200 ${btnSocial}`}>
             in
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={`p-3 rounded-full transition-all duration-200 ${btnSocial}`}>
+          <a href="https://github.com/mr10one" target="_blank" rel="noopener noreferrer" className={`p-3 rounded-full transition-all duration-200 ${btnSocial}`}>
             GH
           </a>
         </div>
