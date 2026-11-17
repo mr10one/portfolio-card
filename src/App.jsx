@@ -11,7 +11,7 @@ function App() {
     setTimeout(() => setShowToast(false), 2000);
   };
 
-  // ألوان ديناميكية على حساب الوضع
+  
   const bgMain = isDark ? 'bg-gray-900' : 'bg-gradient-to-br from-gray-50 to-gray-200';
   const bgCard = isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100';
   const textMain = isDark ? 'text-white' : 'text-gray-900';
@@ -50,7 +50,7 @@ function App() {
           <div className="absolute bottom-1 right-1 w-6 h-6 bg-green-500 border-4 border-white rounded-full" title="Available for work"></div>
         </div>
 
-        <h1 className={`text-2xl font-bold mb-1 ${textMain}`}>Your Name</h1>
+        <h1 className={`text-2xl font-bold mb-1 ${textMain}`}>Marouane</h1>
         <p className="text-blue-500 font-semibold mb-2">Full Stack Developer</p>
         <p className={`text-sm mb-6 flex items-center justify-center gap-2 ${textSub}`}>
           📍 Casablanca, Morocco
