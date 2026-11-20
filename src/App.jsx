@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import profileImage from './assets/Me_Bro2.jpg';
+import profileImage from './assets/profile_me.jfif';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
